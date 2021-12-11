@@ -61,7 +61,4 @@ What would be the size of the receptive field of each neuron in the final layer 
 
 Describe a method to estimate the importance (contribution) of each region in the input image to the final prediction of the network (on that image).
 
-Submission Guidelines:
 
-The submission is in pairs. Please submit a single zip file named “ex2_ID1_ID2.zip” where ID1 is the id number of one student and ID2 is of the other (e.g. ex2_123456789_987654321.zip). This file should contain your code, along with an ”ex2.pdf” file which should contain your answers to the theoretical part as well as the figures/text for the practical part. Furthermore, include in this compress file a README with your names and cse usernames.
-Please write readable code, with documentation where needed, as the code will also be checked manually.
