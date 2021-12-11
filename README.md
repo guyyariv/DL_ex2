@@ -1,6 +1,6 @@
 # DL_ex2
  Introduction to Deep Learning - Exercise #2
-submission date: 10/12/2021
+
 
 
 Programing Task: Sentiment Analysis for the IMDB Movies Reviews Dataset
@@ -29,36 +29,6 @@ Finally, add this layer to the network architecture you used in Task 3 and repea
 
 We are expecting you to report and elaborate on every practical task in the pdf, with your own words and analysis of what you’ve done. Include everything that you think is crucial for us to understand your way of thinking.
 
-Theoretical Questions:
 
-Explain what type of a network architecture you will use to handle each of the following problems (e.g., many-to-many RNN, or a convolution NN). Explain your reasoning.
-Speech recognition (audio to text)
-Answer questions
-Sentiment analysis
-Image classification
-Single word translation
-Compute the analytical Jacobian, with respect to x,  of the following layers:
-Linear layers Ax
-Bias layers x+b
-Convolutional layers x * f
-
-Text-to-Image: 
-Describe the architecture of a network that reads a sentence and generates an image based on the text. Do not address the question of how such a network is trained, just explain why it should have the capacity to perform this task. You can assume that the images come from a restricted class of images, e.g., faces, and can be encoded (and decoded) in a low-dimensional latent space.
-
-Assume the image is encoded using 4 latent codes that correspond to its four quadrants. Explain how an attention layer can be used to allow such a network to better support fine-grained descriptions in the input text, as well as references to different regions (top, bottom, left, right, sky, ground, etc.). What would be the queries, keys, and values in this case? 
-CNNs:
-Assume an 128X128x1 input image is inputted to the following architecture :
-
-conv(kernal_size=3,stride=1)
-conv(kernal_size=3,stride=1)
-maxpool(window_size=(2,2),stride=1)
-conv(kernal_size=3,stride=1)
-conv(kernal_size=5,stride=1)
-
-where each of the conv operators works in “valid” mode, i.e., it computes an output response if all the pixels in its receptive field exist in its input. What would be the output size of the response map produced by this network?
-
-What would be the size of the receptive field of each neuron in the final layer (in terms of pixels in the input image)?
-
-Describe a method to estimate the importance (contribution) of each region in the input image to the final prediction of the network (on that image).
 
 
